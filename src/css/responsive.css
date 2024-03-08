@@ -1,0 +1,17 @@
+@media(max-width:1024px){
+    .cards {
+        grid-template-columns: repeat(4, auto);
+        gap: 20px;
+        margin: 40px 20px;
+    }
+}
+@media(max-width:768px){
+    .container{
+        height: 100%;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
